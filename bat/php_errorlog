@@ -1,0 +1,5 @@
+[19-Jul-2022 15:16:31 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/customer/www/quantumfoundation.in/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[03-Sep-2022 14:45:16 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/customer/www/quantumfoundation.in/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[18-Oct-2022 15:30:10 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/customer/www/quantumfoundation.in/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[22-Nov-2022 13:07:51 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/customer/www/quantumfoundation.in/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jan-2023 18:12:10 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/customer/www/quantumfoundation.in/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
