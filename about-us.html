@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/testi.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CRoboto:400%7CRubik:100,400,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+
+.heading {
+    text-align: center;
+    color: #454343;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    z-index: 999;
+}
+.white-heading{
+    color: #ffffff;
+}
+.heading:after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 40px;
+    width: 180px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    background: url(img/heading-line.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.white-heading:after {
+    background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading span {
+    font-size: 18px;
+    display: block;
+    font-weight: 500;
+}
+.white-heading span {
+    color: #ffffff;
+}
+/*-----Testimonial-------*/
+
+.testimonial:after {
+    position: absolute;
+    top: -0 !important;
+    left: 0;
+    content: " ";
+    background: url(img/testimonial.bg-top.png);
+    background-size: 100% 100px;
+    width: 100%;
+    height: 100px;
+    float: left;
+    z-index: 99;
+}
+
+.testimonial {
+    min-height: 375px;
+    position: relative;
+    background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+        background-size: cover;
+}
+#testimonial4 .carousel-inner:hover{
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+#testimonial4 .carousel-inner:active{
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+#testimonial4 .carousel-inner .item{
+  overflow: hidden;
+}
+
+.testimonial4_indicators .carousel-indicators{
+  left: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0;
+  height: 20px;
+  bottom: 15px;
+  padding: 0 5px;
+  cursor: e-resize;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+}
+.testimonial4_indicators .carousel-indicators li{
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  border: none;
+  text-indent: 0;
+  margin: 2px 3px;
+  cursor: pointer;
+  display: inline-block;
+  background: #ffffff;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.testimonial4_indicators .carousel-indicators .active{
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  border: none;
+  margin: 2px 3px;
+  background-color: #9dd3af;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
+  height: 3px;
+}
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb{
+  background: #eeeeee;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.testimonial4_control_button .carousel-control{
+  top: 175px;
+  opacity: 1;
+  width: 40px;
+  bottom: auto;
+  height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  overflow: hidden;
+  line-height: 38px;
+  text-shadow: none;
+  text-align: center;
+  position: absolute;
+  background: transparent;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1);
+  transition: all 0.6s cubic-bezier(0.3,1,0,1);
+}
+.testimonial4_control_button .carousel-control.left{
+  left: 7%;
+  top: 50%;
+  right: auto;
+}
+.testimonial4_control_button .carousel-control.right{
+  right: 7%;
+  top: 50%;
+  left: auto;
+}
+.testimonial4_control_button .carousel-control.left:hover,
+.testimonial4_control_button .carousel-control.right:hover{
+  color: #000;
+  background: #fff;
+  border: 2px solid #fff;
+}
+
+.testimonial4_header{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 550px;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  position: relative;
+}
+.testimonial4_header h4{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.testimonial4_slide{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+.testimonial4_slide img {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 136px;
+    height: 136px;
+    margin: auto;
+    display: block;
+    color: #f2f2f2;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+.testimonial4_slide p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 40px 0 20px 0;
+}
+.testimonial4_slide h4 {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.testimonial .carousel {
+  padding-bottom:50px;
+}
+.testimonial .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
+    width: 35px;
+    height: 35px;
+}
+/* ------testimonial  close-------*/
+  .footer-brand-logos {
+        margin: 0 auto;
+        width: 960px; 
+        height: 56px; 
+        text-align: justify;
+        background-color: #f0f0f0; 
+    }
+
+    .footer-brand-logos:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+
+    /* .footer-brand-logos * {
+        padding: 0;
+        margin: 0;
+    } */
+
+    .footer-brand-logos img {
+        height: 56px;        
+    }
+
+    .footer-brand-logos a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+  </style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- <a class="section section-banner d-none d-xl-flex" href="https://www.templatemonster.com/website-templates/monstroid2.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )" target="_blank"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a> -->
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a href="index.html"><img class="brand-logo-light" src="images/newlogo.png" alt="" width="150" height="51"/></a></div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item "><a class="rd-nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="rd-nav-item active" ><a class="rd-nav-link" href="about-us.html">About Us</a>
+                      </li>
+                      <li class="rd-nav-item dropdown"><a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li style="border-bottom: 0.5px solid;"><a class="dropdown-item" href="project-dharohar.html">Project Dharohar</a></li>
+                          <li><a class="dropdown-item" href="mission-one-million.html">Mission One Million</a></li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="gallery.html">Gallery</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contact Us</a>
+                      </li>
+                    </ul><a class="button button-primary button-sm" href="#">Join Us</a>
+                  </div>
+                </div><!-- <a class="button button-primary button-sm" href="#">Join Us</a> -->
+                <div class="dropdown">
+                <button type="button" class="button button-primary button-sm dropdown-toggle" data-toggle="dropdown">
+          Join Us</button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="collaborators.html" style="border-bottom: 0.5px solid;">Collaborators</a>
+                    <a class="dropdown-item" href="volunteers.html" style="border-bottom: 0.5px solid;">Volunteers</a>
+                    <a class="dropdown-item" href="fundraiser.html">Fund Raiser</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="parallax-container " data-parallax-img="images/Main.jpg">
+        <div class="parallax-content breadcrumbs-custom context-dark">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-9">
+                <h2 class="breadcrumbs-custom-title">About Us</h2>
+                <ul class="breadcrumbs-custom-path">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">About Us</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-gray-1 bg-gray-1-decor">
+        <div class="container">
+          <div class="row row-50">
+            <div class="col-lg-6 pr-lg-5"><img src="images/about.webp" alt="" style="margin-top: 0px;" />
+            </div>
+            <div class="col-lg-6" style="margin-top: 0px;">
+              <h3>About Us</h3>
+              
+                <div class="divider"></div>
+                <!-- <h4 class="text-opacity-70">We are committed to helping wounded kids find their place.</h4> -->
+              
+            </br>
+              <p>Quantum group. Is a dynamic organization that has been in the field of training for over 20  years. With its rich industry experience and expert faculty, Quantum has an edge in its field due to its consistent reputation of quality and adaptability.</p>
+              <p>Dr.Pratik Surana, founder and chief mentor at Quantum, has diligently dedicated his vast industry knowledge and guidance skills to make Quantum an unmatched leader in the corporate training realm. He has worked with some of the top organizations in India and has empowered employees across ages, cultures and hierarchy to achieve their life and productivity goals in the most effective manner.</p>
+              <p>As a part of its social initiative, Quantum has an ambition to make 1 million people Emotionally Literate by 2030. </p>
+              <p>Dr.Surana is committed to contribute to the community by making one million people aware of their emotional persona and its effects on their personal and professional lives.</p>
+            </div>
+          </div>
+        </div> 
+      </section>
+      <!-- <section class="section section-lg bg-default">
+        <div class="container">
+          <h3 class="text-center">Our Mission</h3>
+          <div class="row row-30 row-md-40 row-xl-60">
+            <div class="col-md-6 col-lg-4">
+              <div class="box-icon-modern">
+                <div class="box-icon-inner decorate-triangle"><span class="icon-xl linearicons-earth icon-primary"></span></div>
+                <div class="box-icon-caption">
+                  <h4><a href="#">Achieving Change</a></h4>
+                  <p>Grandis, albus decors etiam desiderium de noster, clemens vita.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box-icon-modern">
+                <div class="box-icon-inner decorate-circle"><span class="icon-xl linearicons-umbrella2 icon-primary"></span></div>
+                <div class="box-icon-caption">
+                  <h4><a href="#">Care &amp; Protection</a></h4>
+                  <p>Cum advena peregrinationes, omnes brabeutaes manifestum germanus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box-icon-modern">
+                <div class="box-icon-inner decorate-rectangle"><span class="icon-xl linearicons-baby2 icon-primary"></span></div>
+                <div class="box-icon-caption">
+                  <h4><a href="#">Saving Children</a></h4>
+                  <p>Cum zirbus favere, omnes habenaes talem barbatus, brevis fraticinidaes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box-icon-modern">
+                <div class="box-icon-inner decorate-rectangle"><span class="icon-xl linearicons-sun icon-primary"></span></div>
+                <div class="box-icon-caption">
+                  <h4><a href="#">Peace On The Planet</a></h4>
+                  <p>Cum solitudo favere, omnes exsules consumere superbus, pius fermiumes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box-icon-modern">
+                <div class="box-icon-inner decorate-triangle"><span class="icon-xl linearicons-leaf icon-primary icon-xl-min"></span></div>
+                <div class="box-icon-caption">
+                  <h4><a href="#">Increasing Awareness</a></h4>
+                  <p>Cum lixa accelerare, omnes xiphiases tractare festus, regius demolitionees.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box-icon-modern">
+                <div class="box-icon-inner decorate-circle"><span class="icon-xl linearicons-share2 icon-primary"></span></div>
+                <div class="box-icon-caption">
+                  <h4><a href="#">Sharing Happiness</a></h4>
+                  <p>Cum aonides peregrinationes, omnes nutrixes experientia lotus, alter lixaes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      
+      
+      
+    <section class="testimonial text-center">
+        <div class="container">
+
+            <div class="heading white-heading">
+                Testimonials
+            </div>
+            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+             
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="testimonial4_slide">
+                            <!-- <img src="https://p.kindpng.com/picc/s/281-2813034_student-png-png-download-women-images-in-png.png" class="img-circle img-responsive" /> -->
+                            <p>The goal of Project Dharohar is to educate students about our heritage and history so they may appreciate India's rich past. This is an ongoing, religious Flawless Service in which Quantum Organization is involved. I'm really grateful to the Quantum Organization staff for their selfless work.</p>
+                            <h4>Dimple Prithwani</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <!-- <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /> --><p>The Quantum Organization is putting a lot of effort into raising young people's understanding of both Indian and global history through Project Dharohar. In order to provide historical facts through entertaining stories, Quantum Organization is organizing history clubs in several schools, colleges, and other educational institutions.</p>
+                            <h4>Ankush Bagmar</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <!-- <img src="https://p.kindpng.com/picc/s/281-2813034_student-png-png-download-women-images-in-png.png" class="img-circle img-responsive" /> -->
+                            <p>I'd heard a lot about the Quantum Foundation and Mission 1 Million. I admire them for the excellent effort they are making to develop 1 million emotionally literate people by the year 2030. My best wishes are with you, and I hope the initiative is a wonderful success. </p>
+                            <h4>Siddharta Saha</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <!-- <img src="images/testimonial.png" class="img-circle img-responsive" /> -->
+                            <p>The Mission 1 Million Project, which the Quantum Foundation is putting into action, is a fantastic effort to have 1 million emotionally literate individuals by the year 2030. The degree of dedication that Quantum demonstrated for this effort has not only had a remarkable effect on the participants but is also providing many people with hope and pleasure. </p>
+                            <h4>Ravi Morey</h4>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+   
+     <!-- FOOTER BRAND LOGOS -->
+<!-- last updated 09/16/15 -->
+
+<!-- When slicing images: -->
+<!-- * logo image height must be 56px -->
+<!-- * logo image width can be whatever, but should be visually centered -->
+<!-- Otherwise, when you add/remove an image wrapped in an anchor tag, all images in the row will space evenly and automatically :) -->
+
+<section class="section section-lg text-center bg-gray-1 ">
+        <div class="container">
+          <div class="row justify-content-left text-center" style="margin-top: -50px;">
+            <div class="col-md-9 col-lg-12 wow-outer">
+              <div class="wow slideInDown">
+                <h3>Our Partners</h3>
+                
+                <div class="divider"></div>
+                <!-- <h4 class="text-opacity-70">We are committed to helping wounded kids find their place.</h4> -->
+            
+                
+  <div class="col-lg-12" style="margin-top: 20px;">              <!-- TOPSHOP -->
+
+  <a href="#">
+      <img src="images/sponsors/bus.png" alt="">
+  </a>
+
+  <!-- TOPMAN -->
+  <a href="#">
+      <img src="images/sponsors/wikimedia.png" alt="">
+  </a>
+
+  <!-- BEAUTY the Guide -->
+  <a href="#">
+      <img src="images/sponsors/one-world.png" alt="">
+  </a>
+
+  <!-- The Room -->
+  <a href="#">
+      <img src="images/sponsors/wikiversity.png" alt="">
+  </a>
+
+  <!-- Kleinfeld -->
+  <!-- <a href="#">
+      <img src="images/sponsors/united-nations.png" alt="">
+  </a>   -->
+  </div>              
+              
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+<!-- END FOOTER BRAND LOGOS -->
+      <!-- <a class="section section-banner" href="https://www.templatemonster.com/website-templates/monstroid2.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )" target="_blank"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
+      <footer class="section footer-minimal context-dark">
+        <div class="container wow-outer">
+          <div class="wow fadeIn">
+            <div class="row row-50 row-lg-60">
+              <div class="col-12"><a href="index.html"><img src="images/newlogo.png" alt="" width="180" height="51"/></a></div>
+              <div class="col-12">
+                <ul class="footer-minimal-nav">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="privecy-pilocy.html">Privacy Policy</a></li>
+                  <!-- <li><a href="#">Gallery</a></li> -->
+                  <li><a href="terms-condition.html">Terms & Condition</a></li>
+                  <li><a href="contacts.html">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-12">
+                <ul class="social-list">
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="https://www.facebook.com/Quantum-Foundation-100500649414073/" target="_blank"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="https://instagram.com/quantumfoundation_" target="_blank"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-linkedin" href="https://www.linkedin.com/company/quantumfoundation/" target="_blank"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="#"></a></li>
+                  <!-- <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li> -->
+                </ul>
+              </div>
+            </div>
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>QUANTUM FOUNDATION</span><span>.&nbsp;</span><span>All Rights Reserved.</span><span>&nbsp;</span>Designed&nbsp;by&nbsp;<a href="https://digitalizetheglobe.com">Digitalize the Globe</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+
+  
+  </body>
+</html>
